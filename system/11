@@ -1,0 +1,2 @@
+debian : (disk file - local mounted / human read - free space available)
+df -lh
