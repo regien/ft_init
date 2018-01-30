@@ -1,0 +1,1 @@
+The device that makes the link between the local network and the outside world is \"nat (10.90.1.11)\". Nat translates the IP addresses of computers in a local network to a simple IP address. This address is often used by the router that connects the computers to the Internet.
