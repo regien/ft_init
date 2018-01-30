@@ -1,5 +1,1 @@
-full version name:
-cat /proc/version
-
-nickname version (like queeze or wheezy):
-cat /etc/*-release
+cat /etc/debian_version
