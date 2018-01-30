@@ -1,1 +1,1 @@
-ps aux
+top -n 1 | sed -n '2,$p'
