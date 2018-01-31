@@ -1,3 +1,4 @@
-brew install docker;
-brew install docker-machine;
-brew install docker-compose;
+brew install docker docker-machine docker-compose;
+docker-machine create  --driver=virtualbox pendejada;
+eval $(docker-machine env pendejada);
+docker run -it debian /bin/sh
