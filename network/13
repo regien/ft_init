@@ -1,1 +1,2 @@
 The server type is a DHCP server.
+You can test it with "host <IP address>"

@@ -7,7 +7,7 @@ variable=`md5sum /etc/crontab | awk '{ print $1 }'`
 read -r line<$MD5
 if [ "$line" != "$variable" ]
 		then
-        echo "$variable" | mail -s "URGET Cronetab changed" root
+        echo "$variable" | mail -s "[RED_ALERT] Cron tab changed" root
 else
 		echo "unchanged"
 fi
