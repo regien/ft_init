@@ -1,4 +1,5 @@
 #!/bin/bash
 
-line="* 4 * * 0 apt-get update -y && apt-get upgrade -y >> /var/log/update_script.log"
-(crontab -l; echo "$line") | crontab -
+# why '>>' in case you have some others configs in your crontab
+# crontab -l /// crontab -e to see your messages
+echo "* 4 * * 0  echo "hey i just a random message year" >> /var/log/update_script.log" >> /var/spool/cron/crontabs/root

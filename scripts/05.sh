@@ -1,1 +1,2 @@
-printf 42
+#!/bin/bash
+printf '42'
