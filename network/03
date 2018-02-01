@@ -1,1 +1,1 @@
-ifconfig en1
+ifconfig en1 ether
